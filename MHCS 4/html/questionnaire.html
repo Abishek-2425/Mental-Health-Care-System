@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="questionnaire.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Take Questionnaire</h2>
+        <form>
+            <label for="q1">How are you feeling today?</label>
+            <input type="text" id="q1" placeholder="Enter your response" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="results" style="display: none;">
+            <h3>Your Results</h3>
+            <p>Your response: <span id="response"></span></p>
+        </div>
+    </div>
+    <script src="questionnaire.js"></script>
+</body>
+</html>
